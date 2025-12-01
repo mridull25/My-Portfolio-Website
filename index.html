@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./src/style.css">
+</head>
+
+<body>
+  <header id="header">
+    <nav class="container">
+      <div class="logo">My Portfolio</div>
+      <ul class="nav-links">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="hero" class="section">
+      <div class="container">
+        <h1 class="hero-title">Hello, I'm <span class="highlight">Mridul Aggarwal</span></h1>
+        <p class="hero-subtitle">Hi, I’m Mridul — a Data Analyst and AI/ML enthusiast passionate about turning raw data
+          into meaningful insights. I love building intelligent systems, dashboards, and automation tools that solve
+          real-world problems.</p>
+        <div class="hero-cta">
+          <a href="#projects" class="btn">View My Work</a>
+          <a href="#contact" class="btn btn-outline">Contact Me</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="container">
+        <h2 class="section-title">Featured Projects</h2>
+        <div class="projects-grid">
+          <!-- Project Card 1 -->
+          <div class="project-card">
+            <div class="project-image">
+              <img src="/project-1.png" alt="Project 1 Screenshot"
+                style="width: 100%; height: 100%; object-fit: cover;">
+            </div>
+            <div class="project-info">
+              <h3>Weather Forecast</h3>
+              <p>PowerBI Dashboard for Weather Forecast</p>
+              <a href="#" class="btn-sm">View Project</a>
+            </div>
+          </div>
+          <!-- Project Card 2 -->
+          <div class="project-card">
+            <div class="project-image">
+              <img src="/project-2.png" alt="Project 2 Screenshot"
+                style="width: 100%; height: 100%; object-fit: cover;">
+            </div>
+            <div class="project-info">
+              <h3>Quantitative Analysis</h3>
+              <p>Analysed Multiple Stock and it's historical prices and generated insights using Python</p>
+              <a href="https://github.com/mridull25/Quantitative_Analysis_of_Stock_Market/blob/main/Quantitative_Analysis_of_Stock_Market.ipynb" class="btn-sm">View Project</a>
+            </div>
+          </div>
+          <!-- Project Card 3 -->
+          <div class="project-card">
+            <div class="project-image">
+              <img src="/project-3.png" alt="Project 3 Screenshot"
+                style="width: 100%; height: 100%; object-fit: cover;">
+            </div>
+            <div class="project-info">
+              <h3>99acres Price Predictor</h3>
+              <p>Web Scrapped 99acres website and predicted the price of the property using Machine Learning</p>
+              <a href="#" class="btn-sm">View Project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container">
+        <h2 class="section-title">About Me & Skills</h2>
+        <div class="about-content">
+          <div class="about-text">
+            <p>II'm Mridul Aggarwal, a passionate Data Analyst with a strong interest in uncovering insights and building intelligent solutions. My journey began in web development using the MERN stack, where I learned how to create functional and user-focused applications. Over time, my curiosity shifted toward understanding data at a deeper level, which led me into the world of Data Analysis and Machine Learning. Today, I enjoy working with real-world datasets, building predictive models, and creating dashboards that turn complex information into clear and actionable insights.
+            </p>
+          </div>
+          <div class="skills-list">
+            <h3>Skills</h3>
+            <div class="skill-tags">
+              <span class="skill-tag">Python</span>
+              <span class="skill-tag">MSExcel</span>
+              <span class="skill-tag">MySql</span>
+              <span class="skill-tag">PowerBI</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="contact-content">
+          <p>Interested in working together? Feel free to reach out!</p>
+          <div class="contact-links">
+            <a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSMTgdZpfGzSBhXWgtrkrZDhGDpdVZXKmXFlPJKjCfTMLwQhRfpNSkMsBKTSKwdKDLXZdchN"
+              class="contact-link">aggarwalmridul281@gmail.com</a>
+            <a href="https://www.linkedin.com/in/mridul-aggarwal-535232289/" class="contact-link">LinkedIn Profile</a>
+            <a href="https://github.com/mridull25" class="contact-link">GitHub Profile</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy;2025 Mridul Aggarwal. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>
