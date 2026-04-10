@@ -161,10 +161,12 @@ header .container {
 }
 
 .hero-subtitle {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   color: var(--text-secondary);
   margin-bottom: var(--spacing-xl);
-  max-width: 600px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .hero-cta {
@@ -260,11 +262,22 @@ header .container {
 }
 
 .contact-link {
-  font-size: 1.2rem;
-  color: var(--text-secondary);
+  display: inline-block;
+  padding: 0.8rem 1.5rem;
+  font-size: 1.1rem;
+  color: var(--text-primary);
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  width: 100%;
+  max-width: 400px;
+  transition: all 0.3s ease;
 }
 
 .contact-link:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: var(--accent-primary);
+  transform: translateY(-2px);
   color: var(--accent-primary);
 }
 
